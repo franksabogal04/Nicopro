@@ -621,6 +621,15 @@ textarea:focus {
   transform: translateY(0);
 }
 
+.p1 {
+  color: var(--gold-light);
+  font-weight: 300;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1100px) {
   .site-header {
     grid-template-columns: 150px auto auto;
