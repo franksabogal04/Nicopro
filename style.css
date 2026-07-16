@@ -128,7 +128,7 @@ img {
   padding: 90px clamp(22px, 7vw, 130px);
   background:
     linear-gradient(90deg, rgba(0,0,0,0.98) 0%, rgba(0,0,0,0.86) 34%, rgba(0,0,0,0.34) 62%, rgba(0,0,0,0.14) 100%),
-    url("https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1800&q=85") center right / cover;
+    url("assets/PHOTO-2026-07-13-19-15-57") center right / cover;
   border-bottom: 1px solid var(--line);
 }
 
@@ -148,7 +148,7 @@ img {
 .hero h1 {
   margin-top: 10px;
   font-family: "Cinzel", serif;
-  font-size: clamp(3rem, 7vw, 6.2rem);
+  font-size: clamp(2rem, 4vw, 4rem);
   line-height: 0.96;
   letter-spacing: 0.02em;
   text-transform: uppercase;
