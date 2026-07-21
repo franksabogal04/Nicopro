@@ -420,26 +420,95 @@
       </div>
 
       <form
-  class="contact-form reveal"
-  action="https://formspree.io/f/mlgqnqwy"
-  method="POST"
->
-
-  <div class="form-row">
-    <input
-      type="text"
-      name="name"
-      placeholder="Your name"
-      required
+      class="contact-form reveal"
+      action="https://formspree.io/f/mlgqnqwy"
+      method="POST"
     >
-
-    <input
-      type="email"
-      name="email"
-      placeholder="Email address"
-      required
-    >
-  </div>
+    
+      <input
+        type="hidden"
+        name="_next"
+        value="https://franksabogal04.github.io/NICOPRO/thank-you.html"
+      >
+    
+      <input
+        type="hidden"
+        name="_subject"
+        value="New NGM Catering Consultation"
+      >
+    
+      <div class="form-row">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name"
+          required
+        >
+    
+        <input
+          type="email"
+          name="email"
+          placeholder="Email address"
+          required
+        >
+      </div>
+    
+      <div class="form-row">
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Phone number"
+          required
+        >
+    
+        <input
+          type="text"
+          name="eventType"
+          placeholder="Event type"
+          required
+        >
+      </div>
+    
+      <div class="form-row">
+        <input
+          type="date"
+          name="eventDate"
+        >
+    
+        <input
+          type="number"
+          name="guestCount"
+          min="1"
+          placeholder="Estimated guest count"
+        >
+      </div>
+    
+      <textarea
+        name="message"
+        rows="4"
+        maxlength="2000"
+        placeholder="Tell us about your event"
+        required
+      ></textarea>
+    
+      <button
+        class="btn btn-gold"
+        type="submit"
+      >
+        Book a Consultation
+      </button>
+    
+    </form>
+    
+    <div class="contact-info reveal">
+      <a href="tel:+17863149377">
+        ☎ (786) 314-9377
+      </a>
+    
+      <span>
+        📍 Serving Miami and surrounding areas
+      </span>
+    </div>
 
   <div class="form-row">
     <input
