@@ -194,12 +194,12 @@ const testimonialDots =
     },
     {
       quote:
-        "From corporate lunches to elegant private events, we are committed to delivering exceptional food, flawless presentation, and personalized service for every occasion.",
+        "We hired NGM Catering for our company's annual appreciation luncheon, and everything was perfect from start to finish. The food arrived on time, looked incredible, and every employee kept asking who the caterer was. We'll definitely be booking them again.",
       author: "Daniela C."
     },
     {
       quote:
-        "Every menu is thoughtfully prepared using fresh ingredients and tailored to your event, ensuring a memorable dining experience for you and your guests.",
+              "The attention to detail was amazing. From the presentation to the quality of the food and the professionalism of the staff, NGM Catering made our family celebration feel like a luxury event. I couldn't have asked for a better experience.",
       author: "Frank S."
     }
   ];
