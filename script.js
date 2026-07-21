@@ -186,23 +186,23 @@ const testimonialAuthor =
 const testimonialDots =
   document.querySelectorAll(".testimonial-dot");
 
-const testimonials = [
-  {
-    quote:
-      "NGM Catering exceeded every expectation. The food was outstanding, the presentation was beautiful, and the service was flawless. Our guests are still raving!",
-    author: "Jessica M."
-  },
-  {
-    quote:
-      "Replace this sample with a real client testimonial. The food, organization, and service made our corporate event easy and memorable.",
-    author: "Client 2"
-  },
-  {
-    quote:
-      "Replace this sample with another real review from a wedding, corporate event, or private dining client.",
-    author: "Client 3"
-  }
-];
+  const testimonials = [
+    {
+      quote:
+        "NGM Catering exceeded every expectation. The food was outstanding, the presentation was beautiful, and the service was flawless. Our guests are still raving!",
+      author: "Jessica M."
+    },
+    {
+      quote:
+        "From corporate lunches to elegant private events, we are committed to delivering exceptional food, flawless presentation, and personalized service for every occasion.",
+      author: "Daniela C."
+    },
+    {
+      quote:
+        "Every menu is thoughtfully prepared using fresh ingredients and tailored to your event, ensuring a memorable dining experience for you and your guests.",
+      author: "Frank S."
+    }
+  ];
 
 let activeTestimonial = 0;
 let testimonialTimer = null;
