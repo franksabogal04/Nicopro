@@ -421,26 +421,37 @@
 
       <form
       class="contact-form reveal"
-      action="https://formspree.io/f/mlgqnqwy"
+      action="https://ngm-contact-server.onrender.com/submit"
       method="POST"
     >
-      <input
-        type="hidden"
-        name="_next"
-        value="https://franksabogal04.github.io/Nicopro/thank-you.html"
+      <!-- Hidden spam-protection field -->
+      <div
+        aria-hidden="true"
+        style="
+          position: absolute;
+          left: -9999px;
+          opacity: 0;
+          height: 0;
+          overflow: hidden;
+        "
       >
-    
-      <input
-        type="hidden"
-        name="_subject"
-        value="New NGM Catering Consultation"
-      >
+        <label>
+          Website
+          <input
+            type="text"
+            name="website"
+            tabindex="-1"
+            autocomplete="off"
+          >
+        </label>
+      </div>
     
       <div class="form-row">
         <input
           type="text"
           name="name"
           placeholder="Your name"
+          maxlength="100"
           required
         >
     
@@ -448,6 +459,7 @@
           type="email"
           name="email"
           placeholder="Email address"
+          maxlength="150"
           required
         >
       </div>
@@ -457,6 +469,7 @@
           type="tel"
           name="phone"
           placeholder="Phone number"
+          maxlength="40"
           required
         >
     
@@ -464,6 +477,7 @@
           type="text"
           name="eventType"
           placeholder="Event type"
+          maxlength="100"
           required
         >
       </div>
@@ -478,6 +492,7 @@
           type="number"
           name="guestCount"
           min="1"
+          max="10000"
           placeholder="Estimated guest count"
         >
       </div>
